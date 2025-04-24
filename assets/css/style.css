@@ -1,0 +1,91 @@
+  body, html {
+      height: 100%;
+    }
+    
+    .sidebar {
+      background-color: #f8f9fa;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid #dee2e6;
+    }
+    .contacto {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #dee2e6;
+      cursor: pointer;
+    }
+    .contacto:hover {
+      background-color: #e9ecef;
+    }
+    .contacto img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .nuevo-chat-btn {
+      margin: 15px 0;
+    }
+    .estatus-usuario {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .estatus-usuario img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .principal {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f1f3f5;
+      text-align: center;
+    }
+
+    .sidebar {
+      min-height: 100vh;
+      background-color: #f8f9fa;
+      border-right: 1px solid #dee2e6;
+    }
+    .contacto {
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .contacto:hover {
+      background-color: #e9ecef;
+    }
+    .contacto img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .estado-usuario img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .seccion-principal {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      .sidebar {
+        min-height: auto;
+      }
+      .seccion-principal {
+        padding: 20px;
+      }
+    }
