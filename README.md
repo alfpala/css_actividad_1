@@ -3,5 +3,5 @@
 
 [Revisar URL]((https://alfpala.github.io/css_actividad_1)
 <p align="left">
-   <img src="https://alfpala.github.io/css_actividad_1/asset/images/img_actividad.jpg">
+   <img src="https://alfpala.github.io/css_actividad_1/assets/images/img_actividad.jpg">
    </p>
